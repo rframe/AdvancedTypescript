@@ -86,16 +86,18 @@ let [book1, book2] = util.GetAllBooks();
 // let allBooks: Book[] = util.GetAllBooks();
 // let allMagazines: Magazine[]= util.GetAllMagazines();
 //
+//let readingMaterial: PrintMaterial = allBooks[0];
 // let readingMaterial: Book | Magazine = allBooks[0];
 // readingMaterial = allMagazines[0];
 //
+// function PrintTitle(item: PrintMaterial): void {
 // function PrintTitle(item: Book | Magazine): void {
 //     console.log(item.title);
 // }
 //
 // PrintTitle(allBooks[0]);
 // PrintTitle(allMagazines[0]);
-
+//let serialNovel: Serial = {
 // let serialNovel: Book & Magazine = {
 //     id: 100,
 //     title: 'The Gradual Tale',
@@ -123,4 +125,21 @@ let [book1, book2] = util.GetAllBooks();
 //
 // let newLibrarian = new UniversityLibrarian();
 // newLibrarian.doResearch('Economics');
+/****************************************/
+
+
+/****************************************/
+//Using String Literal Types and Type Aliases
+/****************************************/
+/****************************************/
+//let frequency: 'monthly' | 'annually' = 'annually';
+
+// type Frequency = 'monthly' | 'annually';
+//
+// function GetMagazineByFrequency(preferredFrequency: Frequency) {
+//     //do something here
+// }
+//
+// type PrintMaterial = Book | Magazine;
+// type Serial = Book & Magazine;
 /****************************************/
