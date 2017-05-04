@@ -37,3 +37,27 @@ function LogFavoriteBooks([book1, book2, ...others]: Book[]) {
 // console.log(booktitle);
 // console.log(bookauthor);
 /****************************************/
+
+
+/****************************************/
+//Using the Spread Operator
+/****************************************/
+/****************************************/
+// let schoolBooks: Book[]  = [
+//     { id: 10, title: 'The Greate Gatsby', author: 'F. Scott Fitzgerald', available: true, category: Category.Fiction},
+//     { id: 11, title: 'Crime and Punishment', author: 'Fyod Dostoevsky', available: true, category: Category.Fiction},
+//     { id: 12, title: 'Clear Light of Day', author: 'Anita Desai', available: true, category: Category.Fiction},
+// ];
+//
+// let booksRead: Book[] = util.GetAllBooks();
+// booksRead.push(...schoolBooks);
+// //console.log(booksRead);
+//
+// let poets: string[] = ['Shelley', 'Collins', 'Hughes'];
+// let authors: string[] = ['Tolstoy', 'Fitzgerald', ...poets];
+//
+// let newAuthors: string[] = [...poets, ...authors]
+//
+// console.log(authors);
+
+/****************************************/
