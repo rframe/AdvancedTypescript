@@ -22,7 +22,7 @@ function LogFavoriteBooks([book1, book2, ...others]: Book[]) {
 //Destructuring Arrays and Objects
 /****************************************/
 /****************************************/
-//let [book1, book2] = util.GetAllBooks();
+let [book1, book2] = util.GetAllBooks();
 //
 // PrintBookInfo(book1);
 // PrintBookInfo(book2);
@@ -59,5 +59,21 @@ function LogFavoriteBooks([book1, book2, ...others]: Book[]) {
 // let newAuthors: string[] = [...poets, ...authors]
 //
 // console.log(authors);
+/****************************************/
 
+
+/****************************************/
+//Creating and Using Tuple Types
+/****************************************/
+/****************************************/
+// let catalogLocation: [string, Book] = ['A 123.456', book1];
+//
+// console.log(catalogLocation);
+
+// interface KeyValuePair<K, V> extends Array<K | V> {
+//     0: K;
+//     1: V;
+// }
+//
+// let catalogLocation: KeyValuePair<string, Book> = ['A 123.456', book1];
 /****************************************/
