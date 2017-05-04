@@ -77,3 +77,31 @@ let [book1, book2] = util.GetAllBooks();
 //
 // let catalogLocation: KeyValuePair<string, Book> = ['A 123.456', book1];
 /****************************************/
+
+
+/****************************************/
+//Using Union and Intersection Types
+/****************************************/
+/****************************************/
+// let allBooks: Book[] = util.GetAllBooks();
+// let allMagazines: Magazine[]= util.GetAllMagazines();
+//
+// let readingMaterial: Book | Magazine = allBooks[0];
+// readingMaterial = allMagazines[0];
+//
+// function PrintTitle(item: Book | Magazine): void {
+//     console.log(item.title);
+// }
+//
+// PrintTitle(allBooks[0]);
+// PrintTitle(allMagazines[0]);
+
+// let serialNovel: Book & Magazine = {
+//     id: 100,
+//     title: 'The Gradual Tale',
+//     author: 'Occasional Pen',
+//     available: true,
+//     category: Category.Fiction,
+//     publisher: 'Serial Press'
+// }
+/****************************************/
